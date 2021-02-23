@@ -1,0 +1,6 @@
+use_frameworks!
+target 'DuChatBotFramework_Tests' do
+  pod 'DuChatBotFramework', :path => '../'
+  
+  
+end
