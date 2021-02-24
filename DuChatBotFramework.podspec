@@ -1,5 +1,5 @@
 #
-# Be sure to run `pod lib lint BSChatBotClientFramework.podspec' to ensure this is a
+# Be sure to run `pod lib lint DuChatBotFramework.podspec' to ensure this is a
 # valid spec before submitting.
 #
 # Any lines starting with a # are optional, but their use is encouraged
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/tareksabry1337/DuChatBotFramework'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Tarek Sabry' => 'tareqs@blackstoneeit.com' }
-  s.source           = { :http => 'https://github.com/tareksabry1337/DuChatBotFramework/releases/download/1.0.0/DuChatBot.zip' }
+  s.source           = { :http => 'https://github.com/tareksabry1337/DuChatBotFramework/releases/download/1.0.0/DuChatBot.zip', }
   s.ios.deployment_target = '10.0'
   s.ios.vendored_frameworks = 'DuChatBot.xcframework'
   
