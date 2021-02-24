@@ -10,9 +10,7 @@ public enum DuParseResult {
   case menu(text: Swift.String, buttons: [DuChatBot.DuChatBotButton], suggestedActions: [DuChatBot.DuSuggestedAction])
   case accounts(accounts: [DuChatBot.DuChatBotAccount], suggestedActions: [DuChatBot.DuSuggestedAction])
   case contracts(text: Swift.String, contracts: [DuChatBot.DuChatBotContract], suggestedActions: [DuChatBot.DuSuggestedAction])
-  case myAccountMenu(text: Swift.String, buttons: [DuChatBot.DuChatBotButton], suggestedActions: [DuChatBot.DuSuggestedAction])
   case recharge(text: Swift.String, buttons: [DuChatBot.DuChatBotButton], suggestedActions: [DuChatBot.DuSuggestedAction])
-  case balanceMenu(text: Swift.String, buttons: [DuChatBot.DuChatBotButton], suggestedActions: [DuChatBot.DuSuggestedAction])
   case paymentHistory(paymentHistory: [DuChatBot.DuPaymentHistory], suggestedActions: [DuChatBot.DuSuggestedAction])
 }
 public struct DuChatBotContract : Swift.Decodable {
