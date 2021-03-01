@@ -14,6 +14,7 @@ public enum DuParseResult {
   case paymentHistory(paymentHistory: [DuChatBot.DuPaymentHistory], suggestedActions: [DuChatBot.DuSuggestedAction])
   case rate(text: Swift.String, suggestedActions: [DuChatBot.DuSuggestedAction])
   case confirmation(text: Swift.String, buttons: [DuChatBot.DuChatBotButton], suggestedActions: [DuChatBot.DuSuggestedAction])
+  case inputFeedback(text: Swift.String, suggestedActions: [DuChatBot.DuSuggestedAction])
 }
 public struct DuChatBotContract : Swift.Decodable {
   public let title: Swift.String
