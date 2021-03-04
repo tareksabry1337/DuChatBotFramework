@@ -19,6 +19,7 @@ public enum DuParseResult {
   case idStatus(text: Swift.String, buttons: [DuChatBot.DuChatBotButton], suggestedActions: [DuChatBot.DuSuggestedAction])
   case login(text: Swift.String, buttons: [DuChatBot.DuChatBotButton], suggestedActions: [DuChatBot.DuSuggestedAction])
   case forgotLoginDetails(text: Swift.String, buttons: [DuChatBot.DuChatBotButton], suggestedActions: [DuChatBot.DuSuggestedAction])
+  case handover(text: Swift.String, buttons: [DuChatBot.DuChatBotButton], suggestedActions: [DuChatBot.DuSuggestedAction])
 }
 public struct DuChatBotContract : Swift.Decodable {
   public let title: Swift.String
